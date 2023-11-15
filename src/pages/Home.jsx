@@ -1,6 +1,10 @@
 // import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 import Book from "./Book";
+import Packages from "./Packages";
+import Services from "./Services";
+import Gallery from "./Gallery";
+import About from './About';
 
 const Home = () => {
   return (
@@ -14,7 +18,11 @@ const Home = () => {
           <Link to={`book`} smooth={true} duration={100}>Book Place</Link>
         </div>
       </div>
-      <Book id={'book'} />
+      <Book/>
+      <Packages/>
+      <Services/>
+      <Gallery/>
+      <About/>
     </>
 
   )

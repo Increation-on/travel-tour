@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -15,22 +16,22 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link className="nav-link" to={'/'}>Home</Link>
+              <Link className="nav-link" to={`/`} smooth={true} duration={100}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'#book'}>Book</Link>
+              <Link className="nav-link" to={`book`} smooth={true} duration={100}>Book</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'#packages'}>Packages</Link>
+              <Link className="nav-link" to={`packages`} smooth={true} duration={100}>Packages</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'#services'}>Services</Link>
+              <Link className="nav-link" to={`services`} smooth={true} duration={100}>Services</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'#gallery'}>Gallery</Link>
+              <Link className="nav-link" to={`gallery`} smooth={true} duration={100}>Gallery</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'#about'}>About</Link>
+              <Link className="nav-link" to={'about'} smooth={true} duration={100}>About</Link>
             </li>
           </ul>
           <form className="d-flex">
