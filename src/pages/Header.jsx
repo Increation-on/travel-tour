@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Link } from 'react-router-dom';
 import { Link } from 'react-scroll';
+import './../styles/header.css';
 
 const Header = () => {
   return (

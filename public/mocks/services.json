@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-hotel",
+        "name": "Affordable Hotel",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    },
+    {
+        "id": 2,
+        "icon": "fa-utensils",
+        "name": "Food And Drinks",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    },
+    {
+        "id": 3,
+        "icon": "fa-bullhorn",
+        "name": "Safty Guide",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    },
+    {
+        "id": 4,
+        "icon": "fa-globe-asia",
+        "name": "Around The World",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    },
+    {
+        "id": 5,
+        "icon": "fa-plane",
+        "name": "Fastest Travel",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    },
+    {
+        "id": 6,
+        "icon": "fa-hiking",
+        "name": "Adventures",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!"
+    }
+]

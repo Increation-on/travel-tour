@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "country": "France",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$500",
+        "image": "/images/france.png",
+        "stars": 3
+    },
+    {
+        "id": 2,
+        "country": "India",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$400",
+        "image": "/images/india.png",
+        "stars": 5
+    },
+    {
+        "id": 3,
+        "country": "Italy",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$450",
+        "image": "/images/italy.png",
+        "stars": 4
+    },
+    {
+        "id": 4,
+        "country": "Pakistan",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$330",
+        "image": "/images/pakistan.png",
+        "stars": 2
+    },
+    {
+        "id": 5,
+        "country": "United Kingdom",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$600",
+        "image": "/images/uk.png",
+        "stars": 5
+    },
+    {
+        "id": 6,
+        "country": "United States",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt!",
+        "price": "$550",
+        "image": "/images/us.png",
+        "stars": 4
+    }
+]

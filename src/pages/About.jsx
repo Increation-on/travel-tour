@@ -1,4 +1,4 @@
-import React from 'react';
+import './../styles/about.css';
 import about from './../images/about-img.png'
 
 const About = () => {
