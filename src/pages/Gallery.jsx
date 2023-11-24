@@ -1,6 +1,6 @@
 import './../styles/gallery.css';
 import { useState, useEffect } from 'react';
-import testimg from './../images/about-img.png';
+import Slider from './Slider';
 
 const Gallery = () => {
 
@@ -37,16 +37,16 @@ const Gallery = () => {
                             ))}
                         </div>
 
-                        <div className="row min" style={{ marginTop: "30px" }}>
+                        {/* <div className="row min" style={{ marginTop: "30px" }}>
                             <div id="carouselControls" className="carousel slide" data-bs-ride="carousel">
                                 <div className="carousel-inner">
 
-                                    {/* <div className="carousel-item active">
-                                <img src={testimg} className="d-block w-100" alt="..." />
-                            </div> */}
+                                    <div className="carousel-item active">
+                                        <img src={testimg} className="d-block w-100" alt="..." />
+                                    </div>
 
                                     {gallery.map((el) => (
-                                        <div className="carousel-item active" key={el.id}>
+                                        <div className="carousel-item active" key={el.id} data-bs-interval="4000">
                                             <img src={el.path} className="d-block w-100" alt="p" />
                                         </div>
                                     ))}
@@ -60,13 +60,11 @@ const Gallery = () => {
                                     <span className="visually-hidden">Next</span>
                                 </button>
                             </div>
-                        </div>
+                        </div> */}
+                        <Slider gallery={gallery} />
                     </>
 
                     : null}
-
-
-
 
             </div>
 
