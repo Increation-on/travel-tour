@@ -7,6 +7,8 @@ import Services from "./Services";
 import Gallery from "./Gallery";
 import About from './About';
 import { useState, useEffect } from 'react';
+import ScrollToTop from "react-scroll-to-top";
+import {ReactComponent as MySVG } from './../arrow.svg';
 
 const Home = () => {
 
@@ -38,6 +40,15 @@ const Home = () => {
       <Services />
       <Gallery />
       <About />
+      <ScrollToTop
+        smooth
+        top={250}
+        className='scroll-top'
+        width='20px'
+        height='20px'
+        color='white'
+        component={<MySVG />}
+      />
     </>
 
   )
