@@ -20,10 +20,12 @@
 }
 .card-min {
   border-radius: 10px !important;
+  height: 300px;
 }
 
 .card-min img {
   border-radius: 10px;
+  height: 35vh;
 }
 .arrow {
   font-size: 40px;
